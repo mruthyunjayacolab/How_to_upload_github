@@ -1,0 +1,411 @@
+=========
+step 1:  Create git ignore file  " .gitignore"
+	 in this file Type:   /node_modules
+
+step 2: Create a Repostires in github.
+=============================== 
+Terminal===> 
+step 3:  git init
+step 4:  git remote add origin http:..........
+step 5:  git add .
+step 6:  git branch -M main
+step 7:  git commit -m "initial commmit"
+step 8:  git status
+step 9:  git push -u origin main
+step 10: git status
+
+
+===========================================
+In  second time 
+Secound time Upload to git or uploading to the git--
+-->
+====> git add .
+----> git commit -m "Reason for the updating to the git hib"
+----> git push
+==================================================
+
+
+
+
+open the folder which project you has to upload you -->Open with..Git
+
+after that you...
+
+
+
+LENOVO@DESKTOP-JO7C2RG MINGW64 ~/Desktop/web/react/Project
+$ git init
+Initialized empty Git repository in C:/Users/LENOVO/Desktop/web/react/Project/.git/
+
+LENOVO@DESKTOP-JO7C2RG MINGW64 ~/Desktop/web/react/Project (master)
+$ git remote add origin https://github.com/mruthyunjayacolab/-Library_Mangement_system1.git
+
+LENOVO@DESKTOP-JO7C2RG MINGW64 ~/Desktop/web/react/Project (master)
+$ git add .
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'package-lock.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'package.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/manifest.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/robots.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/App.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/App.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/App.test.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/data/db.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/index.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/index.js', LF will be replaced by CRLF the next time Git touches it
+
+LENOVO@DESKTOP-JO7C2RG MINGW64 ~/Desktop/web/react/Project (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .gitignore
+        new file:   README.md
+        new file:   package-lock.json
+        new file:   package.json
+        new file:   public/favicon.ico
+        new file:   public/images/email.png
+        new file:   public/images/green.png
+        new file:   public/images/group-3.svg
+        new file:   public/images/group.jpg
+        new file:   public/images/humlog.png
+        new file:   public/images/images.jfif
+        new file:   public/images/img1.png
+        new file:   public/images/pngegg.png
+        new file:   public/images/yellow.png
+        new file:   public/index.html
+        new file:   public/logo192.png
+        new file:   public/logo512.png
+        new file:   public/manifest.json
+        new file:   public/robots.txt
+        new file:   src/App.css
+        new file:   src/App.js
+        new file:   src/App.test.js
+        new file:   src/components/addBook.jsx
+        new file:   src/components/addUser.jsx
+        new file:   src/components/adminDashboard.jsx
+        new file:   src/components/adminHome.jsx
+        new file:   src/components/adminLogin.jsx
+        new file:   src/components/adminNavBar.jsx
+        new file:   src/components/bookList.jsx
+        new file:   src/components/landingPage.jsx
+        new file:   src/components/readBook.jsx
+        new file:   src/components/userList.jsx
+        new file:   src/components/userLogin.jsx
+        new file:   src/data/db.json
+        new file:   src/index.css
+        new file:   src/index.js
+        new file:   src/styles/addBooks.css
+        new file:   src/styles/adminAddUser.css
+        new file:   src/styles/adminDash.css
+        new file:   src/styles/adminHome.css
+        new file:   src/styles/adminNavBar.css
+        new file:   src/styles/bookList.css
+        new file:   src/styles/landingPage.css
+        new file:   src/styles/readBooks.css
+        new file:   src/styles/userList.css
+        new file:   src/styles/userLogin.css
+
+
+
+LENOVO@DESKTOP-JO7C2RG MINGW64 ~/Desktop/web/react/Project (master)
+$ git branch -M main
+
+LENOVO@DESKTOP-JO7C2RG MINGW64 ~/Desktop/web/react/Project (main)
+$ git commit -m "initial commit"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'LENOVO@DESKTOP-JO7C2RG.(none)')
+
+LENOVO@DESKTOP-JO7C2RG MINGW64 ~/Desktop/web/react/Project (main)
+$ git config --global user.email "mruthyunjayacolab@gmail.com"
+
+LENOVO@DESKTOP-JO7C2RG MINGW64 ~/Desktop/web/react/Project (main)
+$ git config --global user.name "mruthyunjayacolab"
+
+LENOVO@DESKTOP-JO7C2RG MINGW64 ~/Desktop/web/react/Project (main)
+$ git commit -m "initial commit"
+[main (root-commit) 4b6efc9] initial commit
+ 46 files changed, 37436 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 README.md
+ create mode 100644 package-lock.json
+ create mode 100644 package.json
+ create mode 100644 public/favicon.ico
+ create mode 100644 public/images/email.png
+ create mode 100644 public/images/green.png
+ create mode 100644 public/images/group-3.svg
+ create mode 100644 public/images/group.jpg
+ create mode 100644 public/images/humlog.png
+ create mode 100644 public/images/images.jfif
+ create mode 100644 public/images/img1.png
+ create mode 100644 public/images/pngegg.png
+ create mode 100644 public/images/yellow.png
+ create mode 100644 public/index.html
+ create mode 100644 public/logo192.png
+ create mode 100644 public/logo512.png
+ create mode 100644 public/manifest.json
+ create mode 100644 public/robots.txt
+ create mode 100644 src/App.css
+ create mode 100644 src/App.js
+ create mode 100644 src/App.test.js
+ create mode 100644 src/components/addBook.jsx
+ create mode 100644 src/components/addUser.jsx
+ create mode 100644 src/components/adminDashboard.jsx
+ create mode 100644 src/components/adminHome.jsx
+ create mode 100644 src/components/adminLogin.jsx
+ create mode 100644 src/components/adminNavBar.jsx
+ create mode 100644 src/components/bookList.jsx
+ create mode 100644 src/components/landingPage.jsx
+ create mode 100644 src/components/readBook.jsx
+ create mode 100644 src/components/userList.jsx
+ create mode 100644 src/components/userLogin.jsx
+ create mode 100644 src/data/db.json
+ create mode 100644 src/index.css
+ create mode 100644 src/index.js
+ create mode 100644 src/styles/addBooks.css
+ create mode 100644 src/styles/adminAddUser.css
+ create mode 100644 src/styles/adminDash.css
+ create mode 100644 src/styles/adminHome.css
+ create mode 100644 src/styles/adminNavBar.css
+ create mode 100644 src/styles/bookList.css
+ create mode 100644 src/styles/landingPage.css
+ create mode 100644 src/styles/readBooks.css
+ create mode 100644 src/styles/userList.css
+ create mode 100644 src/styles/userLogin.css
+
+LENOVO@DESKTOP-JO7C2RG MINGW64 ~/Desktop/web/react/Project (main)
+$ git push -u origin main
+Enumerating objects: 53, done.
+Counting objects: 100% (53/53), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (51/51), done.
+Writing objects: 100% (53/53), 509.46 KiB | 4.72 MiB/s, done.
+Total 53 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/mruthyunjayacolab/-Library_Mangement_system1.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+LENOVO@DESKTOP-JO7C2RG MINGW64 ~/Desktop/web/react/Project (main)
+$ ^C
+
+LENOVO@DESKTOP-JO7C2RG MINGW64 ~/Desktop/web/react/Project (main)
+$
+-----------------------------------------------------------------------------------
+Secound time Upload to git or uploading to the git--
+-->
+====> git add .
+----> git commit -m "Reason for the updating to the git hib"
+----> git push
+----------------------------------------------------------------------------------------------------------------
+
+LENOVO@DESKTOP-JO7C2RG MINGW64 ~/Desktop/web/react/Test2 (master)
+
+changing the directiores...............
+
+$ git branch -M main
+
+LENOVO@DESKTOP-JO7C2RG MINGW64 ~/Desktop/web/react/Test2 (main)
+
+removing the directorres fiel which are present in them.
+$ rm -rf .git
+
+LENOVO@DESKTOP-JO7C2RG MINGW64 ~/Desktop/web/react/Test2 (main)
+$ git init
+Initialized empty Git repository in C:/Users/LENOVO/Desktop/web/react/Test2/.git/
+
+LENOVO@DESKTOP-JO7C2RG MINGW64 ~/Desktop/web/react/Test2 (master)
+
+$ git remote add origin https://github.com/mruthyunjayacolab/products.git
+
+LENOVO@DESKTOP-JO7C2RG MINGW64 ~/Desktop/web/react/Test2 (master)
+
+$ git add .
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'package-lock.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'package.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/manifest.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/robots.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/App.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/App.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/App.test.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/data/db1.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/index.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/index.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/reportWebVitals.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/setupTests.js', LF will be replaced by CRLF the next time Git touches it
+
+LENOVO@DESKTOP-JO7C2RG MINGW64 ~/Desktop/web/react/Test2 (master)
+====================================
+$ git status
+====================================
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .gitignore
+        new file:   README.md
+        new file:   package-lock.json
+        new file:   package.json
+        new file:   public/favicon.ico
+        new file:   public/index.html
+        new file:   public/logo192.png
+        new file:   public/logo512.png
+        new file:   public/manifest.json
+        new file:   public/robots.txt
+        new file:   src/App.css
+        new file:   src/App.js
+        new file:   src/App.test.js
+        new file:   src/components/Fulldelx.jsx
+        new file:   src/components/Home2.jsx
+        new file:   src/components/home.jsx
+        new file:   src/components/navBar.jsx
+        new file:   src/components/navBar1.jsx
+        new file:   src/components/product1.jsx
+        new file:   src/components/products.jsx
+        new file:   src/data/db.json
+        new file:   src/data/db1.json
+        new file:   src/index.css
+        new file:   src/index.js
+        new file:   src/logo.svg
+        new file:   src/reportWebVitals.js
+        new file:   src/setupTests.js
+        new file:   src/style/Home.css
+        new file:   src/style/nav.css
+        new file:   src/style/product.css
+
+
+
+LENOVO@DESKTOP-JO7C2RG MINGW64 ~/Desktop/web/react/Test2 (master)
+====================================================================
+$ git commit -m "initial commit"
+===================================================================
+[master (root-commit) 3f6c662] initial commit
+ 30 files changed, 30762 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 README.md
+ create mode 100644 package-lock.json
+ create mode 100644 package.json
+ create mode 100644 public/favicon.ico
+ create mode 100644 public/index.html
+ create mode 100644 public/logo192.png
+ create mode 100644 public/logo512.png
+ create mode 100644 public/manifest.json
+ create mode 100644 public/robots.txt
+ create mode 100644 src/App.css
+ create mode 100644 src/App.js
+ create mode 100644 src/App.test.js
+ create mode 100644 src/components/Fulldelx.jsx
+ create mode 100644 src/components/Home2.jsx
+ create mode 100644 src/components/home.jsx
+ create mode 100644 src/components/navBar.jsx
+ create mode 100644 src/components/navBar1.jsx
+ create mode 100644 src/components/product1.jsx
+ create mode 100644 src/components/products.jsx
+ create mode 100644 src/data/db.json
+ create mode 100644 src/data/db1.json
+ create mode 100644 src/index.css
+ create mode 100644 src/index.js
+ create mode 100644 src/logo.svg
+ create mode 100644 src/reportWebVitals.js
+ create mode 100644 src/setupTests.js
+ create mode 100644 src/style/Home.css
+ create mode 100644 src/style/nav.css
+ create mode 100644 src/style/product.css
+
+LENOVO@DESKTOP-JO7C2RG MINGW64 ~/Desktop/web/react/Test2 (master)
+$ git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/mruthyunjayacolab/products.git'
+
+LENOVO@DESKTOP-JO7C2RG MINGW64 ~/Desktop/web/react/Test2 (master)
+===========================================================
+$ git branch -M main
+===========================================================
+LENOVO@DESKTOP-JO7C2RG MINGW64 ~/Desktop/web/react/Test2 (main)
+=======================================
+$ git push -u origin main
+=================================================
+Enumerating objects: 37, done.
+Counting objects: 100% (37/37), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (34/34), done.
+Writing objects: 100% (37/37), 317.43 KiB | 1.97 MiB/s, done.
+Total 37 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/mruthyunjayacolab/products.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+LENOVO@DESKTOP-JO7C2RG MINGW64 ~/Desktop/web/react/Test2 (main)
+========================================================
+$ git status
+=========================================================
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+LENOVO@DESKTOP-JO7C2RG MINGW64 ~/Desktop/web/react/Test2 (main)
+$
+======================================================================
+PS C:\Users\LENOVO\Desktop\web\Express4> git init
+Initialized empty Git repository in C:/Users/LENOVO/Desktop/web/Express4/.git/
+PS C:\Users\LENOVO\Desktop\web\Express4> git remote add origin https://github.com/mruthyunjayacolab/ExpressRouter.git
+PS C:\Users\LENOVO\Desktop\web\Express4> git add .
+warning: in the working copy of 'package-lock.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'package.json', LF will be replaced by CRLF the next time Git touches it
+PS C:\Users\LENOVO\Desktop\web\Express4> git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   package-lock.json
+        new file:   package.json
+        new file:   routes/admin.js
+        new file:   routes/user.js
+
+PS C:\Users\LENOVO\Desktop\web\Express4> git branch -M main
+PS C:\Users\LENOVO\Desktop\web\Express4> git commit -m "initial commit"
+[main (root-commit) ebacc81] initial commit
+ create mode 100644 .gitignore
+ create mode 100644 app.js
+ create mode 100644 package-lock.json
+ create mode 100644 package.json
+ create mode 100644 routes/admin.js
+ create mode 100644 routes/user.js
+PS C:\Users\LENOVO\Desktop\web\Express4> git push -u origin main
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 4 threads
+Writing objects: 100% (9/9), 9.65 KiB | 581.00 KiB/s, done.
+Total 9 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/mruthyunjayacolab/ExpressRouter.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+PS C:\Users\LENOVO\Desktop\web\Express4> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
